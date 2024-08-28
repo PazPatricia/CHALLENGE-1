@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Decodificador challenge</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagens/logo alura.png" alt="logo">
+    </header>
+    <main>
+        <section class="sessao1">
+            <div class="contentcaixatexto">
+                <textarea placeholder="Digite o texto aqui" class="caixatexto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="imagens/alerta.png" alt="alerta">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="content-botoes">
+                <input type="button" class="btn-criptografar" value="CRIPTOGRAFAR">
+                <input type="button" class="btn-descriptografar" value="DESCRIPTOGRAFAR">
+            </div>
+        </section>
+        <section class="sessao2">
+            <div class="contentboca">
+                <img src="imagens/boca.png" alt="boca">
+            </div>
+            <div class="content-paragrafo">
+                <h3>Nem uma mensagem <br> encontrada</h3>
+                <p>Degite o texto que você deseja criptografar ou <br> descriptografar.</p>
+            </div>
+            <div class="content-copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+            <div class="content-resultado">
+                <p class="texto-resultado"></p>
+            </div>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
